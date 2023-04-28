@@ -14,8 +14,6 @@ import java.util.Objects;
 
 @Service
 public class MovimientoServiceImpl implements MovimientoService {
-    static final String DEPOSITO = "DEPOSITO";
-    //static final String RETIRO = "RETIRO";
     static final String CUENTA_ACTIVA = "True";
 
     @Autowired
